@@ -142,18 +142,60 @@ margin-bottom: 70px;
  Media Queries
  ----------- */
  @media only screen and (max-width:688px) {
-     .main{
-         width: 100%;
-     }
-   .sports-banner, .highlights, .footer-items{
+.main{
+    width: 100%;
+}
+.sports-banner{
+width: 100%;
+flex-direction: column;
+align-items: flex-end;
+
+}
+    .highlights, .footer-items, .match-feature{
+    width: 100%;
        display: flex;
+      
        flex-direction: column;
        align-items: center;
+       overflow-x: hidden;
 
    }
-   .banner-title, .banner-detail{
-    display: flex;
+   .banner-detail{
+       width: 100%;
+   
        align-items: center;
+       overflow-x: hidden;
+    }
+    .banner-title{
+        width: 100%;
+   height: 100%;
+       align-items: center;
+       overflow-x: hidden;
+       overflow-y: hidden;
+    }
+       h1{
+        width: 100%;
+        align-items: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+       }
+
+ 
+   .logo-icons, .logo{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+    align-items: center;
+
+   }
+ 
+   .highlight-detail, .button-livesite{
+
+       display: flex;
+       width: 100%;
+       align-items: center;
+       overflow-x: hidden;
+       overflow-y: hidden;
    }
    .players-profile{
        grid-template-columns: repeat(1, 1fr);
