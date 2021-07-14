@@ -1,0 +1,70 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+/* -----------
+Sports banner
+------------ */
+.sports-banner{
+    display: flex;
+    justify-content: center;
+background-color:rgb(15, 15, 129);
+}
+.banner-title{
+color: white;
+width: 485px;
+height: 230px;
+margin-top: 153px;
+margin-left: 156px;
+}
+h1{
+    font-weight: 700px;
+    font-size: 64px;
+}
+.button-livesite a{
+    text-decoration: none;
+    width: 168;
+    height: 44px;
+    padding: 10px 24px;
+    background: #E02C6D;
+}
+/*----------
+ fieldsite 
+ ---------*/
+ .field{
+     margin-top: 153px;
+     margin-bottom: 86px;
+     border: 1px solid rgba(224, 167, 21, 0.589);
+ }
+ .banner-image img{
+     width: 556px;
+     height: 438px;
+ }
+ /* ------------
+ hover style 
+ ------------*/
+ .banner-image{
+     transition: tranform .5s;
+ }
+ .field:hover .banner-image{
+     transform: translate(80px, 10px);
+ }
+ .ball{
+     width: 60px;
+     height: 60px;
+     border-radius: 30px;
+     background-color:white;
+     border: 1.5px solid black;
+     position: relative;
+     left: 320px;
+     bottom: 60px;
+     transition: transform .8s .3s;
+ }
+ .field:hover .ball{
+     transform: translate(400px, -150px);
+ }
