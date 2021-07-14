@@ -94,6 +94,9 @@ h1{
     width: 300px;
     height: 256px;
  }
+ .player-name{
+     font-size: 24px;
+ }
 
  /* Match Highlight */
  .highlights{
@@ -135,3 +138,25 @@ margin-bottom: 70px;
     width: 483.87px;
     height: 110px;
 }
+/*----------
+ Media Queries
+ ----------- */
+ @media only screen and (max-width:688px) {
+     .main{
+         width: 100%;
+     }
+   .sports-banner, .highlights, .footer-items{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+
+   }
+   .banner-title, .banner-detail{
+    display: flex;
+       align-items: center;
+   }
+   .players-profile{
+       grid-template-columns: repeat(1, 1fr);
+   }
+   
+ }
