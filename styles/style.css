@@ -113,3 +113,25 @@ h1{
    margin-left: 53px;
 
  }
+
+ /*------------
+  Footer tag
+  ------------- */
+  .footer-items{
+display: flex;
+justify-content: center;
+  }
+.logo-icons{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 483.87px;
+height: 213px;
+margin-top: 150px;
+margin-bottom: 70px;
+  }
+.logo img{
+    width: 483.87px;
+    height: 110px;
+}
